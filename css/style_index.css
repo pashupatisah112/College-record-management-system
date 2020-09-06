@@ -1,0 +1,83 @@
+        body{
+			margin:0px;
+			padding:0px;
+			background-image:url("../assets/pierce-college.jpeg");
+			background-size:100% 100%;
+			font-family:arial;
+			color:white;
+		}
+		a{
+			text-decoration:none;
+		}
+		    .header
+			{
+				position:relative;
+				left:200px;
+				top:0px;
+				width:800px;
+				height:75px;
+				background-color:maroon;
+				padding-top:5px;
+				padding-left:200px;
+				
+			}
+			.main_div
+			{
+				position:relative;
+				left:200px;
+				width:995px;
+				height:400px;
+				background-color:#e3caef;
+			}
+			.logo_div
+			{
+				width:450px;
+				height:380;
+				position:relative;
+				left:5px;
+				top:5px;
+				border-right:2px solid black;
+			}
+			.login_div
+			{
+				width:400px;
+				height:380px;
+				position:absolute;
+				left:500px;;
+				top:0px;
+				color:black
+				
+				
+			}
+			.button_style
+			{
+				width:200px;
+				height:50px;
+				margin-left:100px;
+				margin-top:25px;
+				color:black;
+				padding-top:20px;
+				padding-left:40px;
+				font-size:30px;
+				border-radius:10px 10px 10px 10px;
+				background-color:rgba(153,0,0,0.3);
+			}
+			.button_style:hover
+			{
+				color:white;
+				border-radius:20px 20px 20px 20px;
+				transition:0.3s;
+			}
+			.button_cancel{
+				position:absolute;
+				left:400px;
+				top:350px;
+				width:75px;
+				height:30px;
+				background-color:rgb(128,0,0,0.3);
+				padding-top:5px;
+				padding-left:5px;
+				border-radius:10px 10px 10px 10px;
+				
+			}
+			

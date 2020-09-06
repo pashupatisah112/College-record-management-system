@@ -1,0 +1,10 @@
+<?php
+    session_start();
+	if($_SESSION['uid'])
+	{
+		echo"";
+	}
+	else{
+		header('location:admin_Login.php');
+	}
+?>
